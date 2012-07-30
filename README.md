@@ -19,3 +19,11 @@ Fix
 A hack which works is by calling the strptime well before the creation of the threads.
 In a web application, the strptime dummy call can be added in the wsgi file.
 
+Run
+===========================
+
+    # To replicate the issue
+    python strptime_issue.py Replicate
+
+    # To fix the issue
+    python strptime_issue.py Fix
